@@ -32,6 +32,7 @@ mv iWeb.war ROOT.war
 
 ## 启动tomcat
 cd $TOMCAT_PATH/bin
+unset CATALINA_HOME
 sh startup.sh
 
 
